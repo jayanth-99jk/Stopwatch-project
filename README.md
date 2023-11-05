@@ -1,2 +1,2 @@
 # Stopwatch-project
-A simple stopwatch using html, css and javascript
+A simple stopwatch using HTML,CSS,and javascript
