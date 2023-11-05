@@ -1,0 +1,30 @@
+<!-- This is simple html code , and this html code is connected with css and javascript as style.css and index.js  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- project name -->
+    <title>StopWatch</title>
+    <!-- link to connect with css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- two containers outer and inner -->
+	<!-- outer container we have heading and stopwatch timings  -->
+    <div class="stopwatch">
+        <h1>STOPWATCH</h1>
+        <h1 id="showtime">00:00:00:000</h1>
+        <!-- inner container we have buttons as images used as stop play and reset -->
+        <div class="buttons">
+            <img src="images/stop.png" onclick="watchstop()">
+            <img src="images/play1.png" onclick="watchstart()">
+            <img src="images/reset.png" onclick="watchreset()">
+        </div>
+    </div>
+
+    <!-- link to connect with javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
