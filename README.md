@@ -9,4 +9,6 @@ Stop Button: The stop button is used to stop the stopwatch
 
 Reset Button: on clicking the reset button the timer will come to the initial stage as(00:00:00:000)
 
+if you minimize the screen slowly the stopwatch part also reduce its size
+
 
